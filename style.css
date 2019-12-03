@@ -25,7 +25,7 @@ body {
 }
 
 #home {
-    background: url(images/background.jpg) no-repeat center center fixed;
+    background: url(images/background.png) no-repeat center center fixed;
     display: table;
     height: 100%;
     width: 100%;
@@ -42,11 +42,11 @@ body {
 .landing-text h1 {
     font-size: 500%;
     font-weight: 700;
-    color: goldenrod;
+    color: white;
 }
 
 .landing-text h3 {
-    color: goldenrod;
+    color: white;
 }
 
 .padding {
