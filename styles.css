@@ -1,0 +1,40 @@
+.h1 {
+    text-align: center;
+    vertical-align: middle;   
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.navbaroptions {
+    font-size: 16px;
+    font-weight: bold;
+	color: #444444;
+}
+
+.box-blue {
+    background-color: #364985;
+    width: auto;
+    height: 40px;
+}
+.footer-blue {
+    background-color: #364985;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: 80px;
+    color: white;
+    text-align: center;
+}
+
+.fa-icon {
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+
+.padding-top {
+    padding-top: 1%;
+}
