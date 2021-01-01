@@ -174,3 +174,30 @@ a {
 #about h4 {
   font-weight: bold;
 }
+
+#FAQ h2 {
+  background-color: #364985;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#FAQ h3 {
+  background-color: #364985;
+  color: white;     
+}
+
+#FAQ h5 {
+  color: white;
+}
+
+.card {
+  background-color: #364985;
+  border-radius: 20px;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
