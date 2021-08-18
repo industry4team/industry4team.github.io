@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&display=swap");
+
+
+/*Navbar*/
+
+body {
+  margin: 0;
+  background: linear-gradient(270deg, #63c8de -1.04%, #252b42 100%);
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  background-color: #252b42;
+  border-top: 5px solid #252b42;
+}
+
+.logo {
+  margin-top: -20px;
+}
+
+#home {
+  margin-top: 200px;
+  text-align: left;
+}
+.ht-main {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+/*FAQs*/
+.FAQ-subheading{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 75px;
+  letter-spacing: 0.2px;
+  color: white;
+  padding-top: 5%;
+}
+
+.FAQ-box {
+  border-radius: 10%;
+  background: #ffffff;
+  padding: 5%;
+  margin: 10%;
+  border-collapse: separate;
+  width: 20%;
+  word-wrap: break-word;
+}
+
+.FAQ-table {
+  width:100%;
+  table-layout: fixed; 
+  border-spacing: 17px; 
+  border-collapse: separate;
+}
+
+.ht-sub {
+  color: white;
+  margin-top: 10px;
+}
+
+.signup-button {
+  background: #252b42;
+
+  border-radius: 37px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  width: 158px;
+  height: 52px;
+  left: 0px;
+  top: 280px;
+  color: white;
+  border: 1px #3a858c;
+}
+
+/*Carousel*/
+.carousel-nav-icon {
+  height: 48px;
+  width: 48px;
+}
+h5 span {
+  background-color: white;
+  color: #252b42;
+  font-weight: 500;
+  font-family: Montserrat;
+}
+.media-contain {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #252b42;
+  border: 20px solid #252b42;
+  color: white;
+}
+.media-head {
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.lead {
+  font-style: italic;
+  font-weight: 400;
+}
+
+/*Mobile Design */
+
+@media screen and (max-width: 760px) {
+  #home {
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .ht-main {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .ht-sub {
+    margin-top: 10px;
+  }
+  .carousel-nav-icon {
+    height: 28px;
+    width: 28px;
+  }
+  h5 span {
+    background-color: white;
+    color: #252b42;
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+  }
+}
+
+.box {
+  max-width: 1300px;
+  position: relative;
+  margin: 100px;
+  margin-top: 320px;
+  margin-bottom: 0px;
+
+  background: rgb(164, 232, 255);
+  padding: 30px;
+  box-shadow: 0px 10px 30px;
+  display: block;
+  background: rgba(192, 249, 255, 0.141);
+}
+
+.about-body{
+  font-size: 18px;
+  padding-top: 15px;
+  color: white;
+}
+
+iframe {
+  width: 1108px;
+  height: 710px;
+  /* apply the transform */
+  -webkit-transform:scale(0.75);
+  -moz-transform:scale(0.75);
+  -o-transform:scale(0.75);
+  transform:scale(0.75);
+  position: absolute;
+  left: -400px;
+}
+
+/*General*/
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
