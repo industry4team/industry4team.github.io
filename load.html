@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- CSS only -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<style>
+/* Center the loader */
+#loader {
+    position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 8px;
+  
+
+}
+#loader:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  animation: load 5s infinite;
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+    background:#fff;;
+  }
+  
+  20% {
+    width: 40%;
+    background: rgb(164, 232, 255);;
+  }
+  
+  50% {
+    width: 60%;
+    background: #252b42
+  }
+  
+  
+  
+  100% {
+    width: 100%;
+    background: #252b42;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background: #252b42;
+  }
+  20% {
+    background: #252b42;
+  }
+  
+  50% {
+    background: rgb(164, 232, 255);
+  }
+  
+  
+  100% {
+    background: #fff;
+  }
+}
+.image {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+    
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  margin: 380px auto; 
+  padding: 20px 40px;
+
+  box-sizing: border-box;
+
+}
+
+
+
+#myDiv {
+  display: none;
+  text-align: center;
+  
+}
+</style>
+</head>
+<body onload="myFunction()">
+<div class="container"> 
+    <div id="loader">
+        <img class="image" src="logo.png" height="100"/>
+    </div>
+    
+    <div style="display:none;" id="myDiv" >
+        
+  
+          
+      </div>
+  
+</div>
+
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+</body>
+</html>
